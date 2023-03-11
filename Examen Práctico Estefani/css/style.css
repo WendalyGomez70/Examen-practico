@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fdfbfb;
+  font-family: 'calibri';
+}
+
+header {
+  background: white;
+  width: 100%;
+  clear: both;
+  content:'';
+  display: table;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 130px;
+  height: 50px;
+  float: left;
+  padding: 8px;
+
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+.imgde{
+  width: 1500px;
+  height: 400px;
+}
+.img1{
+  width: 150px;
+  height: 150px;
+}
+.cardmb-3{
+  background-color: #fcfcfc;
+  margin-left: 20px;
+  padding: 0px;
+  margin-right: 20px;
+}
+h1{
+  text-align: center;
+}
+span{
+  color: red;
+}
+.img2{
+  width: 150px;
+  height: 150px;
+}
+.image{
+  width: 150px;
+  height: 150px;
+}
+.image0{
+  background-color: #fcfcfc;
+  margin-left: 150px;
+  padding: 0px;
+  margin-right: 80px;
+}
+.texto{
+  background-color: #fcfcfc;
+  margin-left: 80px;
+  padding: 0px;
+  margin-right: 80px;
+}
+footer{
+  float: left;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  border-top: 2px solid black;
+  background-color: rgb(135, 135, 138);
+  color: white;
+  text-align: left;
+  padding-top: 5px;
+}
+.alinearizq{
+  float: left;
+}
+.alinearder{
+  float: right;
+}
